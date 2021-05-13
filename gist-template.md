@@ -5,6 +5,7 @@ Regex, which is short for regular expression, is a sequence of characters that d
 ## Summary
 
 In the tutorial, I will be explaning features of regex in a way that is understandible.
+
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -56,7 +57,7 @@ the previous match. Without the global flag, subsequent searches will return the
 (ABC) () Regular expressions permit us to not just match text but also to extract information for further processing. This is done by defining groups of characters and capturing them using the special parentheses ( and ) metacharacters. Any sub pattern inside a pair of parentheses will be captured as a group. In practice, this can be used to extract information like phone numbers or emails from many types of data.
 
 ### Bracket Expressions
-A bracket expression enclosed in square brackets is a regular expression that matches a single character, or ordered element. If the initial character is a circumflex ^, then this bracket expression is complemented. See Character Class to see examples.
+A bracket expression enclosed in square brackets is a regular expression that matches a single character, or ordered element. If the initial character is a circumflex ^, then this bracket expression is complemented.
 
 ### Greedy and Lazy Match
 Greedy in regular expressions means matching the longest possible string. A greedy quantifier tells the engine to match as many instances of its quantified token or sub pattern as possible. This behavior is called greedy.
