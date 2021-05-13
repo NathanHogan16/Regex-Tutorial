@@ -1,11 +1,10 @@
 # Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Regex, which is short for regular expression, is a sequence of characters that defines a specific search patter. In this assignment I will be explaining what regex is by defining the individual parts of regex.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
+In the tutorial, I will be explaning features of regex in a way that is understandible.
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -23,11 +22,16 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+ Anchors are there for you to be able to define the search from the start or the end.
 
+ In this case, /^ and $/ signify the beginning or end of the expression:
+
+* The ^ matches the beginning of the string, or the beginning of a line if the multiline flag or (m) is enabled. This matches a position, not a character.
+* The $ matches the end of the string, or the end of a line if the multiline flag (m) is enabled. This matches a position, not a character.
 ### Quantifiers
-
+Quantifiers are there to tell you how many times a part of your expression should be repeated.
 ### OR Operator
-
+|| is known as OR operator. The || acts like a boolean OR and it matches the expression before or after the ||. It can operate within a group, or on a whole expression. The patterns will be tested in order. It checks whether any of the two operands are non-zero (0, false, undefined, null or “” is considered as zero).
 ### Character Classes
 
 ### Flags
